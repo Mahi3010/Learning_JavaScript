@@ -50,3 +50,22 @@ let stateNo = 466001
 let stringStateNo = String(stateNo)
 console.log(stringStateNo)
 console.log(typeof stringStateNo) //string
+
+
+// *******************************Operations************************
+console.log(2+2)
+console.log(5-5);
+console.log(2**5); //2 to the power 5
+console.log(2/6);
+console.log(3%8);
+
+
+console.log("1" + 2 + 2)  // 122 if string is first then whole treat as string 
+console.log(1 + 2 + "2")  //32 if numbers are first then conversion can be done
+
+let str1 = "hello"
+let str2 = " Mahi"
+console.log(str1 + str2);
+
+console.log(+true)             //1          true => 1 
+console.log(+"")               //0          empty return 0
