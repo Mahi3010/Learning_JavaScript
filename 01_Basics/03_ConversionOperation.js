@@ -69,3 +69,14 @@ console.log(str1 + str2);
 
 console.log(+true)             //1          true => 1 
 console.log(+"")               //0          empty return 0
+
+let x = 3
+const y = x++               //first print then increment
+
+console.log(`x:${x}, y:${y}`);          // x = 4 and y = 3
+
+
+let a = 3;
+let b = ++a         //first increment and then print
+
+console.log(`a:${a}, b:${b}`)           // a = 4 and b = 4
